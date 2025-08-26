@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <title>Personal Portfolio</title>
+ 
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="nyu.jpg" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Fazil Mammadli</h1>
+
+          <p class="title">AI/ML Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">mammadli@umd.edu</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (202) 430-3819</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">Mar 16, 2001</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>College Park, Maryland, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/FazilMammadli" class="social-link" target="_blank">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/fazil-mammadli-5088a722b/" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          
+
+          
+
+          
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a Machine Learning Engineer and Data Scientist with expertise in Generative AI, Large Language Models (LLMs), AI-powered analytics, and data-driven decision-making. My experience includes developing end-to-end machine learning pipelines, optimizing deep learning models, and deploying scalable AI solutions.
+          </p>
+
+          <p>
+             I have a strong background in data science, focusing on data preprocessing, feature engineering, statistical analysis, and predictive modeling. My work involves building data pipelines, analyzing large datasets, and deploying models that drive insights and business decisions. I am skilled in exploratory data analysis (EDA), time-series forecasting, and anomaly detection, ensuring high-quality data-driven solutions.
+
+I also specialize in MLOps and cloud computing, deploying machine learning models at scale using AWS, GCP, and Snowflake. I have experience implementing CI/CD pipelines, model versioning, and monitoring frameworks, making AI applications robust and efficient. My expertise extends to SQL and NoSQL databases, vector search technologies, and distributed computing for handling large-scale data.
+
+Beyond model development, I have worked on data visualization and business intelligence, leveraging tools like Pandas, Matplotlib, and reporting dashboards to communicate insights effectively. I am passionate about transforming raw data into meaningful solutions that enhance automation, decision-making, and innovation. With a strong foundation in both AI and data science, I aim to build intelligent systems that drive progress and efficiency.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="mlai.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning & AI Development</h4>
+
+                <p class="service-item-text">
+                  Working on fine-tuning LLMs and optimizing deep learning models for various applications.
+Developing retrieval-augmented generation (RAG) systems to enhance AI-powered knowledge retrieval.
+Exploring multimodal AI models that integrate text, image, and speech processing.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="datascience.jpg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science & Analytics</h4>
+
+                <p class="service-item-text">
+                  Building data pipelines for data preprocessing, feature engineering, and large-scale analysis.
+Conducting exploratory data analysis (EDA) to extract meaningful insights from structured and unstructured data.
+Working on predictive modeling, anomaly detection, and recommendation systems to improve decision-making.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="cloud.jpg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">MLOps & Cloud Computing</h4>
+
+                <p class="service-item-text">
+                  Deploying and managing AI models on AWS, GCP, and Snowflake for scalable machine learning solutions.
+Implementing CI/CD pipelines, model versioning, and monitoring to ensure efficient AI deployment.
+Working with vector search technologies like Pinecone, Weaviate, and Qdrant for high-performance search applications.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="ai.jpg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI-Powered Applications & Research</h4>
+
+                <p class="service-item-text">
+                  Experimenting with self-supervised learning techniques to improve AI model efficiency.
+Researching secure AI deployment strategies to ensure model governance and data privacy.
+Developing real-time AI solutions for automation and decision support systems.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Companies I worked for</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://umd.edu/" target="_blank">
+                <img src="umd.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.medtronic.com/en-us/index.html" target="_blank">
+                <img src="medtronic.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.pashabank.az/lang,en/" target="_blank">
+                <img src="pasha.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://azercosmos.az/en" target="_blank">
+                <img src="azercosmos.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.azercell.com/en/" target="_blank">
+                <img src="azercell.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.socar.ge/en" target="_blank">
+                <img src="socar.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>AI/ML</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Science</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Robotics</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>AI/ML</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Science</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Robotics</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="ai/ml">
+              <a href="https://github.com/FazilMammadli/ChatPDF" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="chatpdf.jpg" alt="ChatPDF" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ChatPDF</h3>
+
+                <p class="project-category">AI/ML</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="robotics">
+              <a href="https://github.com/FazilMammadli/Autonomous_Car" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="autonomuscar.jpg" alt="Autonomus Car" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Autonomous Car</h3>
+
+                <p class="project-category">Robotics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ai/ml">
+              <a href="https://github.com/FazilMammadli/VisionSpeakAI" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="VisionSpeakAI.jpg" alt="VisionSpeakAI" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">VisionSpeakAI</h3>
+
+                <p class="project-category">AI/ML</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/FazilMammadli/MedExpenseAI" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="MedExpenseAI.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MedExpenseAI</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ai/ml">
+              <a href="https://github.com/FazilMammadli/SecurePayDetect" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="SecurePayDetect.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SecurePayDetect</h3>
+
+                <p class="project-category">AI/ML</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="ai/ml">
+              <a href="https://github.com/FazilMammadli/AmazonMoodCheck" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="amazonsentiment.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AmazonMoodCheck</h3>
+
+                <p class="project-category">AI/ML</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="robotics">
+              <a href="https://github.com/FazilMammadli/Maze_Turtlebot3" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="mazeturtlebot.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Maze_Turtlebot3</h3>
+
+                <p class="project-category">Robotics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data science">
+              <a href="https://github.com/FazilMammadli/NYC-RentEstimator" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="nycproje.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NYC-RentEstimator</h3>
+
+                <p class="project-category">Data Science</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="robotics">
+              <a href="https://github.com/FazilMammadli/Collision-Avoidance-for-Robots" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="collisionavoid.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Collision Avoidance for Robots</h3>
+
+                <p class="project-category">Robotics</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3109.260133659146!2d-76.93820662360192!3d38.98820194407379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6ffb2f5b52d%3A0x28b5196b8fdc2a0b!2sCollege%20Park%2C%20MD%2C%20USA!5e0!3m2!1sen!2sus!4v1708800000000!5m2!1sen!2sus"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form id="contact-form" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+</body>
+
+</html>
